@@ -21,7 +21,6 @@ main{
     border:2px black solid;
     width: fit-content;
     width: 35%;
-    height: 80%;
     margin: auto;
 }
 div.imga{
@@ -64,4 +63,5 @@ div p{
 }
 .avtar img{
     height:2.5rem;
+
 }
