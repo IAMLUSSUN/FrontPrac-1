@@ -1,0 +1,67 @@
+
+@font-face{
+    font-family: figg;
+    src: url(Figtree-VariableFont_wght.ttf);
+}
+*{
+    font-family: 'figg';
+    user-select: none;
+}
+body{
+    background-color: rgba(245, 209, 78);
+    display: flex;
+    height: 120vh;
+    justify-content: center;
+}
+main{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20PX;
+    box-shadow: 15px 8px 0px black;
+    border:2px black solid;
+    width: fit-content;
+    width: 35%;
+    height: 80%;
+    margin: auto;
+}
+div.imga{
+    display: flex;
+}
+div.imga img{
+    margin: auto;
+    border-radius: 20px;
+    width: 100%;
+}
+section.Learning{
+    background-color: rgba(245, 209, 78);
+    padding: 5px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5PX;
+    display: flex;
+    align-items: center;
+    margin:15px 0;
+    text-align: center;
+}
+.Learning h4{
+    margin-left: 5px;
+}
+div h1:hover{
+    color:rgba(245, 209, 78);
+}
+div p{
+    text-align:justify;
+    font-size:1.2rem;
+}
+.avtar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.avtar span{
+    font-weight: bold;
+}
+.avtar img{
+    height:2.5rem;
+}
